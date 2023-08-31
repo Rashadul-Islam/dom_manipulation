@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>My Meal</title>
+  </head>
+  <body>
+    <div class="top_heading">
+      <h3 class="title">Find Your Meal</h3>
+      <div class="input_area">
+        <input
+          type="text"
+          id="search_input"
+          placeholder="Find your favourite meal"
+        />
+        <button type="submit" id="submit_button" onclick="handleSearch()">Search</button>
+      </div>
+    </div>
+    <div id="items_area"></div>
+  </body>
+  <script src="./script/app.js"></script>
+</html>
